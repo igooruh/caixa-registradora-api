@@ -30,8 +30,15 @@
         "ts": "never"
       }
     ],
+    "camelcase": "off",
+    "class-methods-use-this": "off",
+    "no-console": "off",
+    "no-underscore-dangle": "off",
+    "no-unused-vars": "off",
     "prettier/prettier": "error",
-    "no-console": "off"
+    "@typescript-eslint/no-unused-vars": ["off"],
+    "@typescript-eslint/camelcase": ["off"],
+    "@typescript-eslint/explicit-module-boundary-types": ["off"]
   },
   "settings": {
     "import/resolver": {
